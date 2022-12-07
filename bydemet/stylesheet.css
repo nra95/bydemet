@@ -1,0 +1,30 @@
+* {
+    margin: 0%;
+    color: #FCF8F4;
+}
+
+footer {
+    background-color: #BB8C77;
+    
+    color: black;
+}
+
+footer > section > div > h3, p {
+    color: black;
+}
+
+
+
+
+
+#footblock {
+    display: flex;
+    justify-content:space-between;
+}
+
+#aabning {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 40px;
+}
