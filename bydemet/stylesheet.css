@@ -1,5 +1,51 @@
-* {
-    margin: 0%;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+}
+
+    
+ul {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+    list-style: none;
+    padding-bottom: 0.5;
+    padding-left: 100px;
+    padding-right: 100px;
+    background-color: #D8C9BD;
+    
+}
+
+#navigation{
+    text-align: center;
+    display: flex;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+    background-color:#D8C9BD;
+    padding: 6px;
+    font-size: 18px;
+    font-weight: 400;
+    align-items: center;
+    font-style: normal;
+    
+
+}
+.bydemet{
+    width: 250px;
+}
+
+a{
+    text-decoration:none;
+    color: #454545;
+    background-color: #D8C9BD;
+}
+
+.mellemrum {
+    background-color: #D8C9BD;
+    padding-left: 40px;
 }
 
 main {
