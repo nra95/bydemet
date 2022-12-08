@@ -205,6 +205,7 @@ hr.solid {
     }
   }
 
+<<<<<<< Updated upstream
   #tider {
     position: relative;
     text-align: center;
@@ -219,6 +220,20 @@ hr.solid {
   }
 
 
+=======
+  /*FAQ side*/
+
+  .arrowbtn {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #474747;
+    background-color: #FCF8F4;
+    border-left: 0;
+    border-top: 0;
+    transform: rotate(45deg);
+  }
+
+>>>>>>> Stashed changes
 
 footer {
     background-color: #BB8C77;
