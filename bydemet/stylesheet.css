@@ -218,6 +218,16 @@ hr.solid {
     transform: translate(-50%, -50%);
   }
 
+#follow1 {
+    display: flex;
+    justify-content: center;
+}
+
+#follow2 {
+    display: flex;
+    justify-content: center;
+}
+
 
 
 footer {
