@@ -249,7 +249,6 @@ hr.solid {
 
 /* Style på buttons/spm der åbner og lukker for faq-svar classen*/
 .faq-spm {
-  font-family: Arial, Helvetica, sans-serif;
   color: #474747;
   cursor: pointer;
   padding: 30px 20px;
