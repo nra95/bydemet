@@ -243,11 +243,13 @@ hr.solid {
 
 /*FAQ side*/
 
+/*overskriften*/
 .SoS {
   text-align: center;
   padding: 5%;
 }
 
+/*container til faq spm*/
 .QnA-container {
   display: flex;
   justify-content: center;
@@ -255,13 +257,14 @@ hr.solid {
   padding-bottom: 100px;
 }
 
+/*skillelinje mellem spm*/
 .faq-line {
   width: 60%;
   margin: auto;
   border-top: 1.2pt solid #474747;
 }
 
-/* Style på buttons/spm der åbner og lukker for faq-svar classen*/
+/* Styling på buttons/spm der åbner og lukker for faq-svar classen*/
 .faq-spm {
   color: #474747;
   cursor: pointer;
@@ -273,17 +276,14 @@ hr.solid {
   margin: auto;
 }
 
-.faq-svar {
-  margin: auto;
-  width: 50%;
-  padding: auto;
-}
-
 /* Style faq-svar panel. Obs: hidden by default */
 .faq-svar {
   padding-bottom: 20px;
   display: none;
   overflow: hidden;
+  margin: auto;
+  width: 50%;
+  padding: auto;
 }
 
 .faq-spm:after {
