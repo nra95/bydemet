@@ -227,6 +227,20 @@ hr.solid {
   transform: translate(-50%, -50%);
 }
 
+/*OM OS*/
+
+.omos-container {
+  display: flex;
+  padding: 120px;
+}
+#frame {
+  margin-left: 120px;
+}
+
+#Ali {
+  margin-right: 120px;
+}
+
 /*FAQ side*/
 
 .SoS {
