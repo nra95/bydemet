@@ -233,7 +233,7 @@ hr.solid {
   display: flex;
   padding: 120px;
 }
-#frame {
+.frame {
   margin-left: 120px;
 }
 
