@@ -233,6 +233,7 @@ hr.solid {
   transform: translate(-50%, -50%);
 }
 
+<<<<<<< HEAD
 /*Instagram afsnit på index siden*/
 #follow1 {
   padding-left: 50px;
@@ -487,6 +488,8 @@ h5:after {
 
 }
 
+=======
+>>>>>>> 7c95b314423699e660d8ae808103c868dd15e696
 /*OM OS*/
 
 .omos-container {
@@ -501,14 +504,19 @@ h5:after {
   margin-right: 120px;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7c95b314423699e660d8ae808103c868dd15e696
 /*FAQ side*/
 
+/*overskriften*/
 .SoS {
   text-align: center;
   padding: 5%;
 }
 
+/*container til faq spm*/
 .QnA-container {
   display: flex;
   justify-content: center;
@@ -516,13 +524,14 @@ h5:after {
   padding-bottom: 100px;
 }
 
+/*skillelinje mellem spm*/
 .faq-line {
   width: 60%;
   margin: auto;
   border-top: 1.2pt solid #474747;
 }
 
-/* Style på buttons/spm der åbner og lukker for faq-svar classen*/
+/* Styling på buttons/spm der åbner og lukker for faq-svar classen*/
 .faq-spm {
   color: #474747;
   cursor: pointer;
@@ -534,17 +543,14 @@ h5:after {
   margin: auto;
 }
 
-.faq-svar {
-  margin: auto;
-  width: 50%;
-  padding: auto;
-}
-
 /* Style faq-svar panel. Obs: hidden by default */
 .faq-svar {
   padding-bottom: 20px;
   display: none;
   overflow: hidden;
+  margin: auto;
+  width: 50%;
+  padding: auto;
 }
 
 .faq-spm:after {

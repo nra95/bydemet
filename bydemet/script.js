@@ -43,7 +43,7 @@ var i;
 for (i = 0; i < faq.length; i++) {
     faq[i].addEventListener("click", function () {
        /* Toggler mellem tilføje og remove "active" class,
-        for at vise arrow up og down knapperne */
+        for at vise arrow up og minus knapperne */
         this.classList.toggle("active");
 
         /* Toggler mellem at skjule og vise svar panel */
