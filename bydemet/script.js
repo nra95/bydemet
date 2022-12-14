@@ -1,3 +1,19 @@
+//Onscroll fade in animation ved instagram sektion på index side
+function showImages(el) {
+    var windowHeight = jQuery( window ).height();
+    $(el).each(function(){
+        var thisPos = $(this).offset().top;
+
+        var topOfWindow = $(window).scrollTop();
+        if (topOfWindow + windowHeight - 0 > thisPos ) {
+            $(this).addClass("fadeIn");
+        }
+    });
+}
+$(window).scroll(function() {
+        showImages('#follow2');
+});
+
 //FAQ side eventlistner + for løkke
 var faq = document.getElementsByClassName("faq-spm");
 var i;

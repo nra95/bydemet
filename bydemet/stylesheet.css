@@ -241,6 +241,86 @@ hr.solid {
   display: flex;
   justify-content: center;
   gap: 20px;
+  padding-bottom: 40px;
+}
+
+
+#follow2 {
+  visibility: hidden;
+}
+
+.fadeIn {
+  -webkit-animation: animat_show 1.5s;
+  animation: animat_show 2.0s;
+  visibility: visible !important;
+}
+
+@keyframes animat_show{
+  0%{opacity:0}
+  100%{opacity:1}
+}
+
+/*Pris side*/
+/* h2 sectionen har jeg brugt for at administere overskriften  */
+
+h2{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  color: rgb(0, 0, 0);
+  font-size: 50px;
+  font-family: optima, bold ;
+  text-align: center;
+}
+/* bodyen har jeg brugt for at kunne give min side en baggrundsfarve 
+*/
+body {
+
+  background-color: #FCF8F4;
+}
+
+/* har jeg sat ind for at kunne give dem en skrifttype og en størrlse  */
+
+.priserne {
+  font-family: Helvetica Neue, light;
+  
+  padding-top: 50px;
+padding-right: 80px;
+padding-bottom: 50px;
+padding-left: 80px;
+
+}
+.linje {
+
+  text-align:right;
+  float: right;
+}
+
+h5 {
+  font-size: 1rem;
+  position: relative;
+}
+
+/* h2 er en siction for at kunne sætte linjen i mellem 
+behandlingen og priserne, og at linjen ikke går ind over teksten 
+jeg har også givet dem hvilken side de skal stå på */
+h5 span {
+  background-color: #FCF8F4;
+  padding-right: 10px;
+
+}
+
+h5:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0em;
+  height: 0.5em;
+  border-top: 1px solid black;
+  z-index: -1;
+ 
+
 }
 
 
@@ -335,7 +415,7 @@ p {
 /*Media queries*/
 @media screen and (min-width: 600px) {
   #headmob {
-    visibility: hidden;
+    display: none;
   }
 }
 
